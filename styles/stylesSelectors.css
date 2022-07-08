@@ -1,0 +1,36 @@
+/* Utilizando el tipo de selector universal */
+* {
+  background: #0b2545;
+  color: #fff;
+}
+
+/* Utilizando el selector de tipo */
+div {
+  background: blueviolet;
+  font-size: 24px;
+  text-align: center;
+  margin: 10px;
+}
+
+/* Selector de clase */
+.fruts {
+  text-align: center;
+  color: #fe6d73;
+  font-size: 30px;
+}
+
+/* Selector de ID */
+#title {
+  text-align: center;
+  font-size: 35px;
+}
+#verduras {
+  color: lightskyblue;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+/* Selector de atributo */
+a[href="https://google.com.gt/?hl=es"] {
+  color: chartreuse;
+  font-size: 35px;
+}

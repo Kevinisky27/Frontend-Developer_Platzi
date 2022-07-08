@@ -1,0 +1,20 @@
+* {
+  background: #0b2545;
+}
+
+div p {
+  color: white;
+}
+
+div > div { /* Aquí decimos que es el hijo directo */
+  color: blueviolet; 
+  font-size: 30px;
+}
+
+div + section { /* aquí decimos que nuestro elemento es adyacente */
+  color: blue;
+}
+
+.autor {
+  color: chartreuse;
+}
