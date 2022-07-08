@@ -1,22 +1,24 @@
 * {
   background: #0b2545;
 }
-
 h3 {
   color: #fff;
   text-align: center;
   font-size: 25px;
   margin: 0;
 }
-
+h3:nth-child(1)::before { /* Aquí decimos que al inicio del primer h3, queremos que nos coloque el siguiente contenido */
+  content: "👋🏻 ";
+}
+h3:nth-child(1)::after { /* Aquí decimos que al final del primer h3, queremos que nos coloque el siguiente contenido */
+  content: " 👨🏻‍💻";
+}
 h3:nth-child(2) { /* Aquí lo que estamos especificando, es que el siguiente hijo h3, en este caso seria el 2, sea del siguiente color */
   color: gold;
 }
-
 h3:nth-child(2)::first-letter { /* Aquí decimos que la primera letra, será del siguiente color */
   color: yellow;
 }
-
 strong:hover { /* Aquí lo que decimos es que cuando el usuario coloque el mouse sobre la etiqueta strong, esta etiqueta cambie de color */
   color: chartreuse;
 }
