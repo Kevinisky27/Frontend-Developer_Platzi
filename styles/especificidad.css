@@ -1,0 +1,10 @@
+#Platzi {
+  color: red; 
+  font-size: 25px;
+  text-align: center;
+}
+.master {
+  color: slateblue;
+}
+
+/* Como nos pudimos dar cuenta, el ID tiene mayor escificidad que una clase en CSS, es por ello que en este ejemplo el color que renderizará, será rojo*/
