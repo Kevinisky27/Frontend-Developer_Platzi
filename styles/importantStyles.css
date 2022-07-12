@@ -1,0 +1,4 @@
+h1 {
+  color: red; 
+  color: blue; /* como nos podemos dar cuenta en el ejemplo, el color que tomo fue el azul, porque es la ultima linea declarada y aquí importa esto */
+}
