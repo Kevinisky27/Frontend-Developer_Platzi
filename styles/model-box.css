@@ -1,0 +1,9 @@
+div {
+  width: 200px; 
+  height: 200px; 
+  padding: 20px;
+  box-sizing: border-box; /* para que no, nos sume la cantidad de nuestra cajita, porque si lo dejamos de esa manera nos daria como resultado 240px entonces lo que hace box-sizing con su valor boder-box es en acoplar esos 200px, entre el padding */
+  border: 1px solid hotpink; /* 3 valores = tamaño, grosor, color*/
+  margin: 20px; /* En vertical estos margenes no se suman */
+  text-align: center;
+}

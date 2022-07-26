@@ -1,0 +1,22 @@
+
+.container {
+  width: 200px;
+  height: 200px;
+  background: peachpuff;
+  position: relative;
+  top: 20px;
+}
+.item {
+  width: 20px;
+  height: 20px;
+  background: rgb(0, 221, 255);
+  position: absolute; /* nuestro elemento solo podra moverse adentro del contenedor*/
+  right: 0;
+}
+nav {
+  width: 100%;
+  height: 60px;
+  background: lightcyan;
+  position: fixed; /* se quedará estatico en donde nosotros le dijimos o le especificamos en este caso */
+  top: 0;
+}

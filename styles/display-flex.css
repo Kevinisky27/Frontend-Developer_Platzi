@@ -1,0 +1,45 @@
+.container {
+  /* El display flex, solamente se coloca en los contenedores, en los items no  los items a su misma vez pueden ser padres, pero cuando sean padres pueden utilizarse esto */
+  display: flex;
+  background: papayawhip;
+  /* Si nosotros quisieramos colocar nuestros elementos con espacios de por medio lo que hacemos es agragar la siguiente propiedad */ 
+  justify-content: space-between;
+  /* Algo más buscado en internet, es como centrar un elemento */
+  height: 60px; 
+  align-items: center;
+}
+.item {
+  width: 30px;
+  height: 30px;
+  background: purple; 
+}
+.item:nth-child(2) {
+  background: greenyellow;
+}
+.item:nth-child(3) {
+  background: yellow;
+}
+.item:nth-child(4) {
+  background: blueviolet;
+}
+/* Otra practica para en CSS es en decile que todos los elementos impares tengan diferente color */
+/*
+.container .item:nth-child(2n +1) {
+  background: cyan;
+}
+*/
+
+.container2 {
+  background: blanchedalmond;
+  height: 150px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+.item2 {
+  height: auto;
+  width: 30px;
+  background: black;
+  margin: 15px;
+}

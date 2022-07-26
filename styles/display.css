@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+div {
+  background: salmon;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+}
+a {
+  /* Nota: los elementos de tipo inline no se les puede agregar un width ni tampoco un height */
+  margin: 20px;
+  color: skyblue; 
+  background: blueviolet;
+  font-size: 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+button {
+  /* un button puede agarrar caracteristicas entre inline y block, es por ello que le podemos pasar como atributos ccs, width y height */
+  background: orange;
+  width: 100px;
+  height: 100px;
+}
