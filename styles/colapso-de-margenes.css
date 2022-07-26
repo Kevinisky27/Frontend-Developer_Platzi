@@ -1,0 +1,10 @@
+/* El colapso de márgenes tiene que ver en está parte, en nuestro css y no sucede cuando Flexbox, Grid y cuando los elementos no sean de tipo bloque */
+.container {
+  display: flex;
+  flex-direction: column;
+}
+div {
+  height: 40px;
+  width: 40px;
+  margin: 20px; 
+}

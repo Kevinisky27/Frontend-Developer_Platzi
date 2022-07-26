@@ -1,0 +1,10 @@
+div {
+  position: absolute;
+  background: chocolate;
+}
+.one {
+  z-index: 5;
+}
+.two {
+  z-index: 4;
+}
